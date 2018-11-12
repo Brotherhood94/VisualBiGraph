@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.unipi.visualbigraph">
+    <module_version install_time="1504266492736" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="1162588422" name="config/Modules/org-unipi-visualbigraph.xml"/>
+        <file crc="3784829672" name="modules/ext/org.unipi.visualbigraph/ch-qos-logback/logback-classic.jar"/>
+        <file crc="916042714" name="modules/ext/org.unipi.visualbigraph/ch-qos-logback/logback-core.jar"/>
+        <file crc="2940920719" name="modules/ext/org.unipi.visualbigraph/colt/colt.jar"/>
+        <file crc="3315777451" name="modules/ext/org.unipi.visualbigraph/com-google-guava/guava.jar"/>
+        <file crc="3118796810" name="modules/ext/org.unipi.visualbigraph/com-martiansoftware/jsap.jar"/>
+        <file crc="2164675600" name="modules/ext/org.unipi.visualbigraph/commons-collections/commons-collections.jar"/>
+        <file crc="3686004110" name="modules/ext/org.unipi.visualbigraph/commons-configuration/commons-configuration.jar"/>
+        <file crc="937643154" name="modules/ext/org.unipi.visualbigraph/commons-io/commons-io.jar"/>
+        <file crc="1049092013" name="modules/ext/org.unipi.visualbigraph/commons-lang/commons-lang.jar"/>
+        <file crc="3077296198" name="modules/ext/org.unipi.visualbigraph/commons-logging/commons-logging.jar"/>
+        <file crc="2325472648" name="modules/ext/org.unipi.visualbigraph/concurrent/concurrent.jar"/>
+        <file crc="594763312" name="modules/ext/org.unipi.visualbigraph/it-unimi-dsi/dsiutils.jar"/>
+        <file crc="228387014" name="modules/ext/org.unipi.visualbigraph/it-unimi-dsi/fastutil.jar"/>
+        <file crc="2299560840" name="modules/ext/org.unipi.visualbigraph/it-unimi-dsi/sux4j.jar"/>
+        <file crc="2806217805" name="modules/ext/org.unipi.visualbigraph/it-unimi-dsi/webgraph.jar"/>
+        <file crc="3200148720" name="modules/ext/org.unipi.visualbigraph/net-sf-jung/jung-algorithms.jar"/>
+        <file crc="2176050342" name="modules/ext/org.unipi.visualbigraph/net-sf-jung/jung-api.jar"/>
+        <file crc="3564299519" name="modules/ext/org.unipi.visualbigraph/net-sf-jung/jung-io.jar"/>
+        <file crc="2338484413" name="modules/ext/org.unipi.visualbigraph/net-sourceforge-collections/collections-generic.jar"/>
+        <file crc="3775162781" name="modules/ext/org.unipi.visualbigraph/org-apache-commons/commons-lang3.jar"/>
+        <file crc="1821594791" name="modules/ext/org.unipi.visualbigraph/org-apache-commons/commons-math3.jar"/>
+        <file crc="3563022913" name="modules/ext/org.unipi.visualbigraph/org-codehaus-woodstox/wstx-asl.jar"/>
+        <file crc="3407207447" name="modules/ext/org.unipi.visualbigraph/org-gephi/gephi-toolkit.jar"/>
+        <file crc="84864733" name="modules/ext/org.unipi.visualbigraph/org-slf4j/slf4j-api.jar"/>
+        <file crc="718358633" name="modules/ext/org.unipi.visualbigraph/stax/stax-api.jar"/>
+        <file crc="4255233728" name="modules/ext/org.unipi.visualbigraph/unknown-binary/AbsoluteLayout.jar"/>
+        <file crc="3815613156" name="modules/org-unipi-visualbigraph.jar"/>
+    </module_version>
+</module>

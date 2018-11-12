@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PanelTopComponent.settings">
+                <!--org.unipi.visualbigraph.PanelTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.unipi.visualbigraph.PanelTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="PanelTopComponent.wstcref">
+                    <!--org.unipi.visualbigraph.PanelTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PanelTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-unipi-visualbigraph-PanelTopComponent.instance">
+                <!--org.unipi.visualbigraph.PanelTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.unipi.visualbigraph.PanelTopComponent"/>
+                <attr name="preferredID" stringvalue="PanelTopComponent"/>
+                <attr
+                    bundlevalue="org.unipi.visualbigraph.Bundle#CTL_PanelAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/unipi/visualbigraph/VBG_IcoM.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-unipi-visualbigraph-PanelTopComponent.shadow">
+                <!--org.unipi.visualbigraph.PanelTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-unipi-visualbigraph-PanelTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_unipi_visualbigraph">
+                <file name="Panel" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.unipi.visualbigraph.PanelTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.unipi.visualbigraph//Panel//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="unipi">
+                    <folder name="visualbigraph">
+                        <file name="PanelTopComponent">
+                            <!--org.unipi.visualbigraph.PanelTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_unipi_visualbigraph/Panel.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_unipi_visualbigraph">
+                <file name="Panel.instance">
+                    <!--org.unipi.visualbigraph.PanelTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.unipi.visualbigraph.PanelTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.unipi.visualbigraph.PanelTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

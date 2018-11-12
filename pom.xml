@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>gephi-plugin-parent</artifactId>
+        <groupId>org.gephi</groupId>
+        <version>0.9.1</version>
+    </parent>
+
+    <groupId>org.unipi</groupId>
+    <artifactId>visualbigraph</artifactId>
+    <version>1.0.0</version>
+    <packaging>nbm</packaging>
+
+    <name>Visual BiGraph</name>
+
+    <dependencies>
+        <!-- Insert dependencies here -->
+        <dependency>
+            <groupId>it.unimi.dsi</groupId>
+            <artifactId>webgraph</artifactId>
+            <version>3.4.3</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>project-api</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>core-library-wrapper</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>graph-api</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-windows</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-ui</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-util-lookup</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-awt</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-modules-settings</artifactId>
+
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>layout-plugin</artifactId>
+            <version>0.9.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>datalab-api</artifactId>
+            <version>0.9.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>unknown.binary</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
+            <artifactId>gephi-toolkit</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>nbm-maven-plugin</artifactId>
+                <configuration>
+                    <licenseName>Apache 2.0</licenseName>
+                    <author>Alessandro Berti</author>
+                    <authorEmail></authorEmail>
+                    <authorUrl></authorUrl>
+                    <sourceCodeUrl>$sourcecode_url</sourceCodeUrl>
+                    <publicPackages>
+                        <!-- Insert public packages -->
+                    </publicPackages>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <repositories>
+        <repository>
+            <id>unknown-jars-temp-repo</id>
+            <name>A temporary repository created by NetBeans for libraries and jars it could not identify. Please replace the dependencies in this repository with correct ones and delete this repository.</name>
+            <url>file:${project.basedir}/lib</url>
+        </repository>
+    </repositories>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>
+
+
